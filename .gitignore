@@ -5,6 +5,9 @@ __pycache__/
 *.pyd
 *.egg-info/
 .eggs/
+*.csv
+*.log
+.DS_Store
 
 # Jupyter
 .ipynb_checkpoints/

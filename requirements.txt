@@ -1,0 +1,4 @@
+requests>=2.31.0
+python-dotenv>=1.0.1
+fastapi>=0.111
+uvicorn[standard]>=0.30
