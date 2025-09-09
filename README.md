@@ -10,19 +10,25 @@ End-to-end pipeline: from fetching PRs → cleaning → training → evaluation 
 
 
 1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/sanjaymh/msc_cs_project.git
+cd msc_cs_project
 
 2. Python environment
 
 Create and activate a virtual environment:
 
+```bash
 python -m venv .venv
+
 source .venv/bin/activate  # Linux/macOS
+
 .venv\Scripts\activate     # Windows
+```
 
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
+
 python -m spacy download en_core_web_sm
+```
